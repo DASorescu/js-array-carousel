@@ -2,16 +2,40 @@
 img{
     height: 100%;
     width: 100%;
+    display: none;
 }
 
+.active{
+    display: block;
+}
 #carousel{
+
     height: 500px;
     width: 750px;
     margin: 50px auto ;
 
     border: 2px dashed black;
+
+    position: relative;
 }
 
-body{
-    background-color: brown;
+.bi{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#right-slider{
+    left: 105%;
+}
+
+#left-slider{
+    right: 105%;
+}
+
+#img-container{
+    margin: 0%;
+    width: 100%;
+    height: 100%;
 }
