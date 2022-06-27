@@ -1,0 +1,17 @@
+/* generic */
+img{
+    height: 100%;
+    width: 100%;
+}
+
+#carousel{
+    height: 500px;
+    width: 750px;
+    margin: 50px auto ;
+
+    border: 2px dashed black;
+}
+
+body{
+    background-color: brown;
+}
